@@ -19,11 +19,15 @@ public class AboutMe {
 	
 	public static void main(String[] args) {
 		
+		//First name, Instructor name, School name, three seperate lines
+		//Below write a phase that encourages school team e.g. "GO Bears!"
 		System.out.println("Charlie L");
 		System.out.println("Ms.Kemp");
 		System.out.println("R.C.I");
 		System.out.println("\"Lets go Ravens!\"");
 		System.out.println();
+		
+		//Below is the timetable
 		System.out.format("%-12s %-6s %-6s", "Period  ", "Day 1  ", "Day 2\n");
 		System.out.format("%-12s %-6s %-6s",  "1", "SPH3U", "SPH3U\n");
 		System.out.format("%-12s %-6s %-6s", "08:45  ", "Enns,M  ", "EnnsM\n");
